@@ -1,0 +1,251 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-white {
+    color: #fff !important;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear {
+    clear: both;
+}
+
+#main {
+
+}
+
+
+/* header */
+#header {
+    height: 48px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#nav li {
+    display: inline-block;
+    position: relative;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.6);
+}
+
+#nav .subnav li {
+    display: block;
+}
+
+#nav .subnav li a {
+    color: #000;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 20px;
+}
+
+#nav > li > a {
+    color: #fff;
+    text-decoration: none;
+    line-height: 48px;
+    padding: 0 24px;
+    text-transform: uppercase;
+}
+
+#nav > li:hover > a {
+    color: #000;
+    background-color: #ccc;
+    display: block;
+}
+
+#nav .subnav li:hover {
+    color: #000;
+    background-color: #ccc;
+    display: block;
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .down-icon {
+    font-size: 14px;
+}
+
+#search .search-icon {
+    font-size: 20px;
+    color: #fff;
+    line-height: 48px;
+    padding: 0 20px;
+}
+
+#header #nav {
+    display: inline-block;
+}
+
+#header #search {
+    display: inline-block;
+    float: right;
+}
+
+#header #search:hover {
+    background-color: rgb(71, 201, 201);
+    cursor: pointer;
+}
+
+/* header */
+
+
+
+/* slider */
+#slider {
+    position: relative;
+    margin-top: 48px;
+    padding-top: 50%;
+    background: url('/assets/img/slider/idol.jpg') top center / cover no-repeat;
+
+}
+
+#slider #sli-con {
+    position: absolute;
+    bottom: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #fff;
+}
+
+#sli-con .sli-heading {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+#sli-con .sli-description {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+/* slider */
+
+
+
+/* content */
+
+
+#content .con-section {
+   
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+
+}
+
+#content .con-heading {
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 6px;
+    font-weight: 400;
+}
+
+#content .con-subheading {
+    text-align: center;
+    font-style: italic;
+    opacity: 0.6;
+    margin-top: 25px;
+    font-size: 20px;
+}
+
+/* dsk */
+
+#content .con-text {
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 25px;
+    line-height: 1.6;
+
+}
+
+#content .avatar-list {
+    margin-top: 50px;
+}
+
+#content .avatar-item {
+    float: left;
+    width: 33.33%;
+    text-align: center;
+
+}
+
+#content .avatar-description {
+    font-size: 18px;
+    font-style: oblique;
+}
+
+#content .avatar-img {
+    height: 160px;
+    margin-top: 15px;
+    border-radius: 6px;
+    
+}
+
+/* playlist */
+
+#content .bg-playlist {
+    background-color: #000;
+}
+
+#content .list-music {
+    background-color: #fff;
+    margin-top: 40px;
+    border-radius: 20px;
+}
+
+#content .list-music li {
+    padding: 12px 20px;
+    border-bottom: 1px solid rgb(192, 170, 170);
+    color: #757575;
+    list-style-type: none;
+    border-radius: 24px;
+}
+
+#content .number {
+    float: left;
+    padding: 4px 8px;
+    background-color: rgb(64, 223, 162);
+    border-radius: 50%;
+}
+
+
+#content .song {
+    padding-left: 14px;
+}
+
+#content .list-music li:hover {
+    background-color: rgb(211, 178, 31);
+    color: #000;
+    cursor: pointer;
+}
+
+
+
+
+
+
+#footer {
+
+}
